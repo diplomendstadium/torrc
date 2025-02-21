@@ -5,6 +5,10 @@ This small Python script creates a torrc file that ensures that the Tor browser 
 
 ~/Downloads/tor-browser-linux-x86_64-14.0.6/tor-browser/Browser/TorBrowser/Data/Tor/torrc
 
+Of if you installed the torbrowser via the torbrowser-launcher:
+
+/home/user/.var/app/org.torproject.torbrowser-launcher/data/torbrowser/tbb/x86_64/tor-browser/Browser/TorBrowser/Data/Tor
+
 This could then look like the following, for example:
 
 ```
