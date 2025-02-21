@@ -7,9 +7,11 @@ This small Python script creates a torrc file that ensures that the Tor browser 
 
 This could then look like the following, for example:
 
+```
 StrictNodes 1
 NumEntryGuards 10
 EntryNodes {ru},{ua},{al},{in},{sg},{am},{tr},{ba},{rs},{jp},{br},{my},{za},{bd},{kr}
 MiddleNodes {us},{gb},{ch},{ca},{au},{il}
 ExitNodes {nl},{fr},{se},{pl},{fi},{at},{cz},{lu},{ro},{it},{dk},{es},{bg},{hu},{ie},{lt},{pt}
 ExcludeNodes {de}
+```
